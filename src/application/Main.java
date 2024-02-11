@@ -1,5 +1,7 @@
 package application;
 
+import dao.DaoFactory;
+import dao.SellerDao;
 import entities.Department;
 import entities.Seller;
 
@@ -18,7 +20,10 @@ public class Main {
                 3000.00,
                 department);
 
+        SellerDao sellerDao = DaoFactory.createSellerDao();
+
         System.out.println(seller);
+        System.out.println(sellerDao);
 
     }
 }
