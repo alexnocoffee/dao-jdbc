@@ -51,8 +51,8 @@ public class Department implements Serializable {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("DepartmentId=" + id + ", ");
-        sb.append("DepName=" + name);
+        sb.append("{DepId=" + id + ", ");
+        sb.append("DepName=" + name + "}");
         return sb.toString();
     }
 
