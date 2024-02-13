@@ -93,12 +93,12 @@ public class Seller implements Serializable {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("\tId: " + id + "\n");
-        sb.append("\tName: " + name + "\n");
-        sb.append("\tEmail: " + email + "\n");
-        sb.append("\tBirthDate: " + birthDate + "\n");
-        sb.append("\tBaseSalary: " + baseSalary + "\n");
-        sb.append("\tDepartment: " + department + "\n");
+        sb.append("\tId: ").append(id).append("\n");
+        sb.append("\tName: ").append(name).append("\n");
+        sb.append("\tEmail: ").append(email).append("\n");
+        sb.append("\tBirthDate: ").append(birthDate).append("\n");
+        sb.append("\tBaseSalary: ").append(baseSalary).append("\n");
+        sb.append("\tDepartment: ").append(department).append("\n");
         return sb.toString();
     }
 }
